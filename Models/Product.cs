@@ -8,7 +8,7 @@ namespace FormsApp.Models
 {
     public class Product
     {
-        [Display(Name ="Seri Numarası")]
+        [Display(Name ="Seri No")]
         public int ProductId { get; set; }
         [Display(Name ="Ürün Adı")]
         public string? Name { get; set; }
